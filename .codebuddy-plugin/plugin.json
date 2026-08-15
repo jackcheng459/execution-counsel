@@ -1,0 +1,57 @@
+{
+  "name": "execution-counsel",
+  "version": "1.2.0",
+  "description": "Applicant-side execution counsel for continuous intake, engagement assessment, project memory, material updates, and action-oriented enforcement workpapers under lawyer control.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": ""
+  },
+  "agents": ["./agents/execution-counsel.md"],
+  "skills": [
+    "./skills/execution-intake-continuity",
+    "./skills/execution-case-workflow",
+    "./skills/legal-collab-toolkit"
+  ],
+
+  "expertType": "agent",
+  "agentName": "execution-counsel",
+
+  "displayName": {
+    "en": "Execution Counsel",
+    "zh": "执行律师"
+  },
+  "profession": {
+    "en": "Execution Counsel",
+    "zh": "执行律师"
+  },
+  "displayDescription": {
+    "en": "Works with applicant-side counsel from intake and engagement assessment through project setup, material updates, property-clue actions, and review-pending enforcement workpapers.\n\n当前版本 v1.2.0\n\n作者：北京海润天睿（郑州）律师事务所 程建都律师 / 公众号「程律进化论」V：wx1811985798",
+    "zh": "面向申请执行人代理律师，贯通谈案、接案、建项、材料更新和财产线索行动，生成待律师复核的执行底稿。\n\n当前版本 v1.2.0\n\n作者：北京海润天睿（郑州）律师事务所 程建都律师 / 公众号「程律进化论」V：wx1811985798"
+  },
+  "avatar": "avatars/expert-v1.2.0.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "我刚完成一次申请执行案件谈案。请根据谈案记录和客户首批材料，区分正式材料可支持的内容、客户陈述、待核事项、缺失材料和下一轮追问，再形成接案评估草案。不要替律师决定是否承接；如涉及未授权文件、红线数据或外部查询，先简要说明并停止相应动作。",
+    "en": "I have just completed an intake meeting for an applicant-side enforcement matter. Separate what formal materials support, client statements, matters to verify, missing materials, and follow-up questions, then prepare an engagement-assessment draft. Do not decide whether counsel should accept the matter; stop and briefly explain before any unauthorized file access, redline data handling, or external query."
+  },
+  "plugin": "execution-counsel",
+  "tags": [
+    { "en": "Enforcement", "zh": "强制执行" },
+    { "en": "Matter Intake", "zh": "谈案接案" },
+    { "en": "Case Continuity", "zh": "持续办案" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I have just completed an intake meeting for an applicant-side enforcement matter. Separate what formal materials support, client statements, matters to verify, missing materials, and follow-up questions, then prepare an engagement-assessment draft. Do not decide whether counsel should accept the matter; stop and briefly explain before any unauthorized file access, redline data handling, or external query.",
+      "zh": "我刚完成一次申请执行案件谈案。请根据谈案记录和客户首批材料，区分正式材料可支持的内容、客户陈述、待核事项、缺失材料和下一轮追问，再形成接案评估草案。不要替律师决定是否承接；如涉及未授权文件、红线数据或外部查询，先简要说明并停止相应动作。"
+    },
+    {
+      "en": "Counsel has decided to accept this matter, and conflict checks, rights-source and authority review, engagement contract, fees, and matter-opening approval are complete. Move verified intake information into the project memory, keep unverified statements pending verification, and prepare the first work plan.",
+      "zh": "本案已经由律师决定承接，冲突检索、权利来源和授权审查、委托合同、收费确认和收案审批均已完成。请把已核实的谈案信息纳入案件项目记忆，未核实陈述继续保留待核状态，并形成第一轮工作计划。"
+    },
+    {
+      "en": "New materials were added to the project. Process only the increment, explain what facts, candidate assessments, and tasks changed, then turn the property clues into lawful next actions with owners and sequence. Do not describe anything as verified unless supported by an actual query or competent-authority response.",
+      "zh": "项目里新增了一批材料。请只处理本次增量，说明哪些已知事实、候选判断和工作任务发生变化，再把财产线索转成现有依据、能够说明的范围、缺口、合法下一动作、责任人和先后顺序。未经实际查询或有权机关反馈，不要写成已经查明。"
+    }
+  ]
+}
