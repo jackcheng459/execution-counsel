@@ -25,8 +25,8 @@
     "zh": "执行律师"
   },
   "displayDescription": {
-    "en": "Works with applicant-side counsel from intake and engagement assessment through project setup, material updates, property-clue actions, and review-pending enforcement workpapers.\n\n当前版本 v1.2.0\n\n作者：北京海润天睿（郑州）律师事务所 程建都律师 / 公众号「程律进化论」V：wx1811985798",
-    "zh": "面向申请执行人代理律师，贯通谈案、接案、建项、材料更新和财产线索行动，生成待律师复核的执行底稿。\n\n当前版本 v1.2.0\n\n作者：北京海润天睿（郑州）律师事务所 程建都律师 / 公众号「程律进化论」V：wx1811985798"
+    "en": "Works with applicant-side counsel from intake and engagement assessment through project setup, material updates, property-clue actions, and review-pending enforcement workpapers.",
+    "zh": "面向申请执行人代理律师，贯通谈案、接案、建项、材料更新和财产线索行动，生成待律师复核的执行底稿。"
   },
   "avatar": "avatars/expert-v1.2.0.png",
   "categoryId": "11-SecurityCompliance",
